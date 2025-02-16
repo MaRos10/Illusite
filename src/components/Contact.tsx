@@ -54,7 +54,7 @@ export function Contact() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">E-post</label>
+            <label htmlFor="email">E-mail</label>
             <input
               type="email"
               id="email"

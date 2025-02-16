@@ -6,7 +6,7 @@
   align-items: center;
   background: #2c2b30;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 3.75rem;
 }
 
 .hero-content {
@@ -120,5 +120,11 @@
 
   .hero-image {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    width: 70%;
   }
 }

@@ -5,7 +5,7 @@
   width: 100%;
   background: #2c2b30;
   backdrop-filter: blur(10px);
-  padding: 20px 0;
+  padding: 1.25rem 0;
   z-index: 1000;
   transition: all 0.3s ease;
   border-bottom: 1px solid transparent;
@@ -17,16 +17,16 @@
 }
 
 .container {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 1.37rem;
   font-weight: 700;
   color: white;
   text-decoration: none;
@@ -40,13 +40,13 @@
 .nav {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 1.87rem;
 }
 
 .nav a {
   color: #b2b8bd;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -57,7 +57,7 @@
 
 .contact-btn {
   background: linear-gradient(to right, #dd7b6a, #da8e66);
-  padding: 10px 20px;
+  padding: 0.65rem 1.25rem;
   border-radius: 6px;
   color: #2c2b30 !important;
   font-weight: 600;
@@ -66,7 +66,7 @@
 
 .contact-btn:hover {
   background: linear-gradient(to right, #d17666, #ea9b71);
-  color: white !important;
+  color: #e3e6ea !important;
 }
 
 .menu-toggle {
@@ -86,8 +86,8 @@
     background: #2c2b30;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
-    gap: 20px;
+    padding: 1.25rem 0;
+    gap: 1.25rem;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
@@ -112,5 +112,10 @@
     background: none;
     color: #f58f7c !important;
     padding: 0;
+  }
+
+  .contact-btn:hover {
+    background: none;
+    color: #f58f7c !important;
   }
 }
