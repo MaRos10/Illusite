@@ -1,0 +1,7 @@
+.footer {
+  background: #363637;
+  padding: 60px 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
