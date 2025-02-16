@@ -15,7 +15,7 @@ export function Header() {
   return (
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="container">
-        <a href="/" className="logo">
+        <a href="/Illusite/" className="logo">
           ILLUSITE
         </a>
 
