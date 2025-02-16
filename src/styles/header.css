@@ -111,5 +111,6 @@
   .contact-btn {
     background: none;
     color: #f58f7c !important;
+    padding: 0;
   }
 }

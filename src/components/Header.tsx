@@ -21,7 +21,7 @@ export function Header() {
 
         <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
           <a href="#services">Våra tjänster</a>
-          <a href="#about">Om oss</a>
+          {/* <a href="#about">Om oss</a> */}
           <a href="#faq">FAQ</a>
           <a href="#contact" className="contact-btn">
             Kontakta oss
