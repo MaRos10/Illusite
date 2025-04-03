@@ -33,6 +33,7 @@ export function Header() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          <span className="sr-only">Öppna meny</span>
         </button>
       </div>
     </header>
