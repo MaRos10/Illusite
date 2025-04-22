@@ -32,7 +32,7 @@ export function Hero() {
           animate={{ y: [0, -5, 0] }}
           transition={{ duration: 4, repeat: Infinity }}
         >
-          <img src={cat} alt="Modern Webbdesign" />
+          <img src={cat} alt="Illustration av en katt" />
         </motion.div>
       </div>
     </section>

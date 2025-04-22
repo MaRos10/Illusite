@@ -19,7 +19,7 @@ export function Header() {
           ILLUSITE
         </a>
 
-        <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
+        <nav className={`nav ${isMenuOpen ? "open" : ""}`} role="navigation">
           <a href="#services">Våra tjänster</a>
           {/* <a href="#about">Om oss</a> */}
           <a href="#faq">FAQ</a>

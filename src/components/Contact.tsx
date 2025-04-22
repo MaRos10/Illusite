@@ -34,10 +34,12 @@ export function Contact() {
 
   return (
     <div id="contact" className="contact-container">
-      <div className="contact-form">
+      <div className="contact-form" role="form">
         <h2>Kontakta oss</h2>
         {successMessage && (
-          <div className="success-message">{successMessage}</div>
+          <div className="success-message" role="status">
+            {successMessage}
+          </div>
         )}
         <form onSubmit={handleSubmit}>
           <div className="form-group">
